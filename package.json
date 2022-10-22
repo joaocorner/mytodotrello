@@ -1,0 +1,41 @@
+{
+  "name": "all_tests_is_here",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@types/uuid": "^8.3.4",
+    "bootstrap": "^5.2.1",
+    "classnames": "2.3.2",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-redux": "8.0.4",
+    "react-scripts": "^5.0.1",
+    "redux": "4.2.0",
+    "redux-logger": "3.0.6",
+    "uuid": "^9.0.0",
+    "uuidv4": "^6.2.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
