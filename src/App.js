@@ -9,6 +9,7 @@ import CardTask from "./components/CardTask";
 import "./App.css";
 import ModalColumn from "./components/ModalColumn";
 import ModalTag from "./components/ModalTag";
+import { Tasks } from "./components/database";
 
 function App() {
   const [tasks, setTasks] = useState(Tasks);
